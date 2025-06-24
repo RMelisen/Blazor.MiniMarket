@@ -1,6 +1,6 @@
 # 🛒 Product and Shopping Cart Management Application (Blazor Standalone)
 
-Small Blazor Standalone application to manage a list of products and a shopping cart. This application will make no API calls: all data must be stored in memory (in local lists).
+Small Blazor Standalone application to manage a list of products and a shopping cart. This application will make no API calls: all data must be stored in memory.
 
 ## 🎯 Objectives
 
@@ -28,7 +28,7 @@ The application allows the user to:
 
  6. **Manage the quantity of each product in the cart**
 
-- If a product is already in the cart, adding the same product should increase the number of units, not create a new line.
+- If a product is already in the cart, adding the same product increases the number of units.
 
  7. Visually display significant discounts
 
@@ -36,5 +36,5 @@ The application allows the user to:
 
 ## ✅ Technical Constraints
 
-- Use Blazor Standalone only.
-- No data persistence (everything is in memory).
+- Blazor Standalone only.
+- No data persistence.
